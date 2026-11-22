@@ -44,7 +44,7 @@ function IconClose({ className }: { className?: string }) {
 function GitHubLink({ compact = false }: { compact?: boolean }) {
   return (
     <a
-      href="https://github.com/gradientaistudio/ui"
+      href="https://github.com/simplifystudio/ui"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Simplify UI on GitHub"

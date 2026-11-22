@@ -66,7 +66,7 @@ export default function DocsPage() {
           <DocTerminal
             title="bash"
             lines={[
-              "$ git clone https://github.com/gradientaistudio/ui.git",
+              "$ git clone https://github.com/simplifystudio/ui.git",
               "$ cd ui",
               "$ npm install",
               "$ npm run dev",
