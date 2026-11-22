@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import GradientMark from "@/components/gradient-mark";
+import SimplifyUiLogo from "@/components/simplify-ui-logo";
 import ThemeToggle from "@/components/theme-toggle";
 import ViewToggle, { VIEW_TABS } from "@/components/view-toggle";
 
@@ -242,7 +242,7 @@ export default function SiteHeader({ isDark = false }: { isDark?: boolean }) {
                   }
                 }}
               >
-                <GradientMark className="h-4 w-auto sm:h-[1.15rem]" />
+                <SimplifyUiLogo className="h-4 w-auto sm:h-[1.15rem]" />
               </Link>
               <div className="flex items-center gap-1">
                 <div className="hidden lg:block">
