@@ -47,7 +47,7 @@ function GitHubLink({ compact = false }: { compact?: boolean }) {
       href="https://github.com/gradientaistudio/ui"
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Gradient UI on GitHub"
+      aria-label="Simplify UI on GitHub"
       className={`flex size-8 cursor-pointer items-center justify-center text-black transition-transform duration-300 hover:scale-90 dark:text-white lg:size-auto ${compact ? "lg:p-0" : "lg:p-1"}`}
     >
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5">
@@ -233,7 +233,7 @@ export default function SiteHeader({ isDark = false }: { isDark?: boolean }) {
               <Link
                 href="/"
                 className="flex items-center text-black dark:text-white"
-                aria-label="Gradient UI"
+                aria-label="Simplify UI"
                 onClick={(event) => {
                   if (pathname === "/") {
                     event.preventDefault();

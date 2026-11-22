@@ -4,7 +4,7 @@ import LegalToggle from "@/components/legal-toggle";
 
 export const metadata: Metadata = {
   title: "Privacy",
-  description: "How Gradient UI handles privacy and site analytics.",
+  description: "How Simplify UI handles privacy and site analytics.",
 };
 
 export default function PrivacyPage() {

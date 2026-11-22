@@ -4,7 +4,7 @@ import LegalToggle from "@/components/legal-toggle";
 
 export const metadata: Metadata = {
   title: "License",
-  description: "Gradient UI is open source software licensed under the MIT License.",
+  description: "Simplify UI is open source software licensed under the MIT License.",
 };
 
 export default function LicensePage() {

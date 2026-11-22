@@ -13,7 +13,7 @@ import PageHero from "@/components/page-hero";
 
 export const metadata: Metadata = {
   title: "Docs",
-  description: "How to use Gradient UI components and icons in your project.",
+  description: "How to use Simplify UI components and icons in your project.",
 };
 
 const linkClass = "text-neon-blue underline underline-offset-2";
@@ -55,7 +55,7 @@ export default function DocsPage() {
             <DocPill>MIT</DocPill>
           </div>
           <p>
-            <strong className="font-tasa-medium text-black dark:text-white">Gradient UI</strong> is a
+            <strong className="font-tasa-medium text-black dark:text-white">Simplify UI</strong> is a
             catalog of React and Tailwind CSS components and SVG icons. Copy or command files into your app — browse a
             live preview, take the source, and adapt the styles.
           </p>

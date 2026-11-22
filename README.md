@@ -1,4 +1,4 @@
-# Gradient UI
+# Simplify UI
 
 Open source [React](https://react.dev) and [Tailwind CSS](https://tailwindcss.com) components and icons, meant to drop into a project and start from there.
 
