@@ -124,7 +124,7 @@ export default function GetStarted() {
           className="relative z-10 mx-auto max-w-[640px] text-center"
           style={{ opacity: 0, filter: "blur(8px)", transform: "translateY(30px)" }}
         >
-          <h2 className="font-everett-medium mb-3 text-6xl tracking-[-0.05em] text-black lg:text-8xl lg:leading-[1.1] dark:text-white">
+          <h2 className="font-tasa-medium mb-3 text-6xl tracking-[-0.05em] text-black lg:text-8xl lg:leading-[1.1] dark:text-white">
             Get Started
           </h2>
           <p className="mx-auto mb-8 max-w-[600px] text-xl font-light text-black/60 sm:text-2xl dark:text-white/60">

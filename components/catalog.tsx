@@ -70,7 +70,7 @@ export default function Catalog({ view }: { view: "components" | "icons" }) {
           value={query}
           onChange={(event) => setQuery(event.target.value)}
           placeholder="Search"
-          className="font-geist-medium h-full min-w-0 flex-1 bg-transparent text-sm leading-5 text-black outline-none placeholder:font-geist-medium placeholder:text-sm placeholder:leading-5 placeholder:text-black [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none dark:text-white dark:placeholder:text-white"
+          className="font-tasa-medium h-full min-w-0 flex-1 bg-transparent text-sm leading-5 text-black outline-none placeholder:font-tasa-medium placeholder:text-sm placeholder:leading-5 placeholder:text-black [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none dark:text-white dark:placeholder:text-white"
         />
         {query || clearing ? (
           <RippleIconButton
@@ -116,7 +116,7 @@ export default function Catalog({ view }: { view: "components" | "icons" }) {
                 <div className="relative h-[220px] overflow-hidden rounded-2xl bg-white dark:bg-[#1a1a1a]">
                   <CardPreview slug={item.slug} />
                 </div>
-                <p className="font-geist-medium mt-3 text-sm text-black/45 transition-colors group-hover/card:text-black dark:text-white/45 dark:group-hover/card:text-white">
+                <p className="font-tasa-medium mt-3 text-sm text-black/45 transition-colors group-hover/card:text-black dark:text-white/45 dark:group-hover/card:text-white">
                   {item.name}
                 </p>
               </Link>

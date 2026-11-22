@@ -226,13 +226,14 @@ export default function SiteHeader({ isDark = false }: { isDark?: boolean }) {
             <header
               className={`nav-shell flex w-full items-center justify-between ${
                 compact
-                  ? "is-compact rounded-full border border-black/[0.08] bg-white/40 py-2 pl-3.5 pr-2 shadow-[0_10px_40px_rgba(0,0,0,0.08)] backdrop-blur-xl lg:pl-3.5 lg:pr-4 dark:border-white/10 dark:bg-black/40 dark:shadow-[0_10px_40px_rgba(0,0,0,0.35)]"
+                  ? "is-compact rounded-full border border-black/[0.08] bg-white/40 py-2 pl-4 pr-2 shadow-[0_10px_40px_rgba(0,0,0,0.08)] backdrop-blur-xl lg:pl-5 lg:pr-4 dark:border-white/10 dark:bg-black/40 dark:shadow-[0_10px_40px_rgba(0,0,0,0.35)]"
                   : "rounded-none px-0 py-2 lg:py-3"
               }${ready ? " is-ready" : ""}`}
             >
               <Link
                 href="/"
-                className="flex items-center gap-2 text-black dark:text-white"
+                className="flex items-center text-black dark:text-white"
+                aria-label="Gradient UI"
                 onClick={(event) => {
                   if (pathname === "/") {
                     event.preventDefault();
@@ -241,8 +242,7 @@ export default function SiteHeader({ isDark = false }: { isDark?: boolean }) {
                   }
                 }}
               >
-                <GradientMark className="size-6" round={compact} />
-                <span className="font-everett-medium text-base uppercase leading-none">Gradient UI</span>
+                <GradientMark className="h-4 w-auto sm:h-[1.15rem]" />
               </Link>
               <div className="flex items-center gap-1">
                 <div className="hidden lg:block">
@@ -281,7 +281,7 @@ export default function SiteHeader({ isDark = false }: { isDark?: boolean }) {
                     if (pathname === tab.href) dismissMobile();
                   }}
                   tabIndex={menuVisible ? undefined : -1}
-                  className={`font-geist-medium block py-4 text-base text-black dark:text-white ${
+                  className={`font-tasa-medium block py-4 text-base text-black dark:text-white ${
                     index === VIEW_TABS.length - 1
                       ? ""
                       : "border-b border-black/[0.08] dark:border-white/[0.06]"

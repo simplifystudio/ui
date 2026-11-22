@@ -107,7 +107,7 @@ export default function ViewToggle() {
           }}
           aria-current={view === tab.id ? "page" : undefined}
           onMouseEnter={() => setHovered(tab.id)}
-          className="font-geist-medium relative z-10 rounded-full px-3 py-1.5 text-[13px] text-black dark:text-white"
+          className="font-tasa-medium relative z-10 rounded-full px-3 py-1.5 text-[13px] text-black dark:text-white"
         >
           {tab.label}
         </Link>

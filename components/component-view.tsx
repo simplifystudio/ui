@@ -69,7 +69,7 @@ export default function ComponentView({
           </svg>
           <span>Back</span>
         </RippleIconButton>
-        <h1 className="font-everett-medium text-center text-[1.7rem] leading-[1.12] tracking-[-0.05em] text-black sm:text-[2.5rem] dark:text-white">
+        <h1 className="font-tasa-medium text-center text-[1.7rem] leading-[1.12] tracking-[-0.05em] text-black sm:text-[2.5rem] dark:text-white">
           {name}
         </h1>
       </div>

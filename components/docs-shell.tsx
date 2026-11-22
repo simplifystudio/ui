@@ -142,7 +142,7 @@ export default function DocsShell({ children }: { children: React.ReactNode }) {
     >
       <div className="mx-auto flex w-full max-w-[1120px] flex-1 flex-col gap-4 px-4 pb-10 lg:flex-row lg:items-start lg:gap-5 lg:px-6 lg:pb-16">
         <aside className="w-full shrink-0 rounded-3xl bg-white p-4 dark:bg-[#1a1a1a] lg:sticky lg:top-24 lg:w-56 lg:p-5">
-          <p className="font-geist-medium mb-3 px-2 text-xs tracking-wide text-black/40 uppercase dark:text-white/40">
+          <p className="font-tasa-medium mb-3 px-2 text-xs tracking-wide text-black/40 uppercase dark:text-white/40">
             On this page
           </p>
           <nav
@@ -165,7 +165,7 @@ export default function DocsShell({ children }: { children: React.ReactNode }) {
                 }}
                 onMouseEnter={() => setHovered(item.id)}
                 aria-current={active === item.id ? "location" : undefined}
-                className="font-geist-medium relative z-10 shrink-0 rounded-full px-3 py-2 text-sm text-black dark:text-white"
+                className="font-tasa-medium relative z-10 shrink-0 rounded-full px-3 py-2 text-sm text-black dark:text-white"
               >
                 {item.label}
               </a>

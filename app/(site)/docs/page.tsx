@@ -32,7 +32,7 @@ function DocSection({
       id={id}
       className="scroll-mt-28 space-y-5 border-b border-black/[0.06] py-10 first:pt-0 last:border-b-0 last:pb-0 dark:border-white/[0.08]"
     >
-      <h2 className="font-everett-medium text-2xl tracking-[-0.03em] text-black sm:text-3xl dark:text-white">
+      <h2 className="font-tasa-medium text-2xl tracking-[-0.03em] text-black sm:text-3xl dark:text-white">
         {title}
       </h2>
       <div className="space-y-5 text-sm leading-relaxed text-black/75 sm:text-[15px] dark:text-white/75">
@@ -55,7 +55,7 @@ export default function DocsPage() {
             <DocPill>MIT</DocPill>
           </div>
           <p>
-            <strong className="font-geist-medium text-black dark:text-white">Gradient UI</strong> is a
+            <strong className="font-tasa-medium text-black dark:text-white">Gradient UI</strong> is a
             catalog of React and Tailwind CSS components and SVG icons. Copy or command files into your app — browse a
             live preview, take the source, and adapt the styles.
           </p>
@@ -97,7 +97,7 @@ export default function DocsPage() {
                 key={label}
                 className="rounded-2xl border border-black/[0.06] px-4 py-3 dark:border-white/[0.08]"
               >
-                <p className="font-geist-medium text-black dark:text-white">{label}</p>
+                <p className="font-tasa-medium text-black dark:text-white">{label}</p>
                 <p className="mt-0.5 text-sm text-black/55 dark:text-white/55">{detail}</p>
               </li>
             ))}
@@ -288,21 +288,21 @@ document.cookie = \`theme=\${theme}; path=/; max-age=31536000; samesite=lax\``}
           </p>
           <div className="grid gap-3 sm:grid-cols-3">
             <div className="rounded-2xl border border-black/[0.06] px-4 py-3 dark:border-white/[0.08]">
-              <p className="text-xs tracking-wide text-black/40 uppercase dark:text-white/40">Body</p>
-              <p className="mt-1 text-black dark:text-white">Suisse Intl Regular</p>
+              <p className="text-xs tracking-wide text-black/40 uppercase dark:text-white/40">Regular</p>
+              <p className="mt-1 font-normal text-black dark:text-white">TASA Orbiter Regular</p>
             </div>
             <div className="rounded-2xl border border-black/[0.06] px-4 py-3 dark:border-white/[0.08]">
-              <p className="text-xs tracking-wide text-black/40 uppercase dark:text-white/40">Labels</p>
-              <p className="font-geist-medium mt-1 text-black dark:text-white">Suisse Intl Medium</p>
+              <p className="text-xs tracking-wide text-black/40 uppercase dark:text-white/40">Body</p>
+              <p className="font-tasa-medium mt-1 text-black dark:text-white">TASA Orbiter Medium</p>
               <p className="mt-1 text-xs text-black/45 dark:text-white/45">
-                <DocInlineCode>font-geist-medium</DocInlineCode>
+                <DocInlineCode>font-tasa-medium</DocInlineCode>
               </p>
             </div>
             <div className="rounded-2xl border border-black/[0.06] px-4 py-3 dark:border-white/[0.08]">
-              <p className="text-xs tracking-wide text-black/40 uppercase dark:text-white/40">Display</p>
-              <p className="font-everett-medium mt-1 text-black dark:text-white">TWK Everett Medium</p>
+              <p className="text-xs tracking-wide text-black/40 uppercase dark:text-white/40">Headers</p>
+              <p className="font-tasa-medium mt-1 text-black dark:text-white">TASA Orbiter Medium</p>
               <p className="mt-1 text-xs text-black/45 dark:text-white/45">
-                <DocInlineCode>font-everett-medium</DocInlineCode>
+                <DocInlineCode>font-tasa-medium</DocInlineCode>
               </p>
             </div>
           </div>

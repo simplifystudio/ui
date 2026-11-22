@@ -149,7 +149,7 @@ export default function Hero() {
           className="mx-auto pt-2 pb-10 text-center lg:pt-6 lg:pb-20"
           style={{ opacity: 0, filter: "blur(8px)", transform: "translateY(30px)" }}
         >
-          <h1 className="font-everett-medium mb-3 text-6xl tracking-[-0.05em] lg:text-8xl lg:leading-[1.1]">
+          <h1 className="font-tasa-medium mb-3 text-6xl tracking-[-0.05em] lg:text-8xl lg:leading-[1.1]">
             Ship faster
           </h1>
           <p className="mx-auto max-w-[600px] text-xl font-light text-black/60 sm:text-2xl dark:text-white/60">

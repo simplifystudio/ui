@@ -51,7 +51,7 @@ export default function ComponentBlock({
     <div className="mx-auto max-w-screen-xl px-4 pb-10 lg:pb-20">
       <div className="grid grid-cols-1 items-center gap-4 sm:gap-8 lg:grid-cols-2 lg:gap-16">
         <div className={`flex flex-col px-6 pt-4 pb-10 sm:px-10 sm:py-10 lg:px-16 lg:py-20 ${reverse ? "order-2" : "order-2 lg:order-1"}`}>
-          <h2 className="font-everett-medium mb-2 text-4xl tracking-[-0.05em] lg:text-6xl lg:leading-[1.1]">
+          <h2 className="font-tasa-medium mb-2 text-4xl tracking-[-0.05em] lg:text-6xl lg:leading-[1.1]">
             {title}
           </h2>
           <div className="mb-8 max-w-[600px] text-black/60 dark:text-white/60">

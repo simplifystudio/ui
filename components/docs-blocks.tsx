@@ -81,7 +81,7 @@ function CopyButton({ value, light = false }: { value: string; light?: boolean }
 
 export function DocInlineCode({ children }: { children: ReactNode }) {
   return (
-    <code className="font-geist-medium rounded-md bg-black/[0.05] px-1.5 py-0.5 text-[0.9em] text-black dark:bg-white/[0.08] dark:text-white">
+    <code className="font-tasa-medium rounded-md bg-black/[0.05] px-1.5 py-0.5 text-[0.9em] text-black dark:bg-white/[0.08] dark:text-white">
       {children}
     </code>
   );
@@ -101,7 +101,7 @@ export function DocCodeBlock({
   return (
     <div className="overflow-hidden rounded-2xl border border-black/[0.06] bg-[#fafafa] dark:border-white/[0.08] dark:bg-[#0d1117]">
       <div className="flex items-center justify-between gap-3 border-b border-black/[0.06] px-4 py-2.5 dark:border-white/[0.08]">
-        <span className="font-geist-medium text-xs text-black/45 dark:text-white/45">
+        <span className="font-tasa-medium text-xs text-black/45 dark:text-white/45">
           {filename ?? language}
         </span>
         <CopyButton value={code} />
@@ -137,7 +137,7 @@ export function DocTerminal({
   return (
     <div className="overflow-hidden rounded-2xl border border-black/80 bg-[#111113] shadow-[0_12px_40px_rgba(0,0,0,0.18)] dark:border-white/10">
       <div className="flex items-center justify-between gap-3 border-b border-white/10 px-4 py-2.5">
-        <span className="font-geist-medium text-xs text-white/45">{title}</span>
+        <span className="font-tasa-medium text-xs text-white/45">{title}</span>
         <CopyButton value={text} light />
       </div>
       <pre className="overflow-x-auto px-4 py-4 text-[13px] leading-relaxed">
@@ -192,7 +192,7 @@ export function DocCallout({
 
   return (
     <aside className={`rounded-2xl border px-4 py-3.5 ${styles.box}`}>
-      <p className={`font-geist-medium mb-1.5 text-sm ${styles.label}`}>{title}</p>
+      <p className={`font-tasa-medium mb-1.5 text-sm ${styles.label}`}>{title}</p>
       <div className="space-y-2 text-sm leading-relaxed text-black/65 dark:text-white/65">{children}</div>
     </aside>
   );
@@ -200,7 +200,7 @@ export function DocCallout({
 
 export function DocKbd({ children }: { children: ReactNode }) {
   return (
-    <kbd className="font-geist-medium inline-flex items-center rounded-md border border-black/10 bg-white px-1.5 py-0.5 text-[11px] text-black shadow-[0_1px_0_rgba(0,0,0,0.06)] dark:border-white/15 dark:bg-white/10 dark:text-white">
+    <kbd className="font-tasa-medium inline-flex items-center rounded-md border border-black/10 bg-white px-1.5 py-0.5 text-[11px] text-black shadow-[0_1px_0_rgba(0,0,0,0.06)] dark:border-white/15 dark:bg-white/10 dark:text-white">
       {children}
     </kbd>
   );
@@ -211,11 +211,11 @@ export function DocSteps({ steps }: { steps: { title: string; body: ReactNode }[
     <ol className="space-y-4">
       {steps.map((step, index) => (
         <li key={step.title} className="flex gap-3">
-          <span className="font-geist-medium flex size-7 shrink-0 items-center justify-center rounded-full bg-charcoal text-xs text-white dark:bg-white dark:text-charcoal">
+          <span className="font-tasa-medium flex size-7 shrink-0 items-center justify-center rounded-full bg-charcoal text-xs text-white dark:bg-white dark:text-charcoal">
             {index + 1}
           </span>
           <div className="min-w-0 space-y-1.5 pt-0.5">
-            <p className="font-geist-medium text-black dark:text-white">{step.title}</p>
+            <p className="font-tasa-medium text-black dark:text-white">{step.title}</p>
             <div className="text-sm leading-relaxed text-black/70 dark:text-white/70">{step.body}</div>
           </div>
         </li>
@@ -226,7 +226,7 @@ export function DocSteps({ steps }: { steps: { title: string; body: ReactNode }[
 
 export function DocPill({ children }: { children: ReactNode; color?: "gray" | "green" | "blue" | "violet" }) {
   return (
-    <span className="font-geist-medium inline-flex rounded-full bg-black/[0.05] px-2.5 py-1 text-xs text-black/65 dark:bg-white/[0.08] dark:text-white/65">
+    <span className="font-tasa-medium inline-flex rounded-full bg-black/[0.05] px-2.5 py-1 text-xs text-black/65 dark:bg-white/[0.08] dark:text-white/65">
       {children}
     </span>
   );

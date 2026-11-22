@@ -10,56 +10,54 @@
   --color-neon-blue: #4d4dff;
   --color-teal: #30c1a5;
   --color-vanilla: #faf9f3;
-  --font-sans: "SuisseIntl-Regular", Helvetica, sans-serif;
+  --font-sans: "TASA Orbiter", Helvetica, sans-serif;
 }
 
 @font-face {
-  font-family: "SuisseIntl-Regular";
+  font-family: "TASA Orbiter";
   font-style: normal;
-  font-weight: normal;
-  src: url("/assets/fonts/SuisseIntl-Regular.woff2");
+  font-weight: 400;
+  src: url("/assets/fonts/TASAOrbiter-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "SuisseIntl-Medium";
+  font-family: "TASA Orbiter";
   font-style: normal;
-  font-weight: normal;
-  src: url("/assets/fonts/SuisseIntl-Medium.woff2");
+  font-weight: 500;
+  src: url("/assets/fonts/TASAOrbiter-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "TWKEverett-Bold";
+  font-family: "TASA Orbiter";
   font-style: normal;
-  font-weight: normal;
-  src: url("/assets/fonts/TWKEverett-Bold.woff2");
+  font-weight: 600;
+  src: url("/assets/fonts/TASAOrbiter-SemiBold.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: "TWKEverett-Medium";
-  font-style: normal;
-  font-weight: normal;
-  src: url("/assets/fonts/TWKEverett-Medium.woff2");
+.font-tasa-medium {
+  font-family: "TASA Orbiter", Helvetica, sans-serif;
+  font-weight: 500;
 }
 
-.font-geist-medium {
-  font-family: "SuisseIntl-Medium", Helvetica, sans-serif;
-  font-weight: normal;
-}
-
-.font-everett {
-  font-family: "TWKEverett-Bold", Helvetica, sans-serif;
-  font-weight: normal;
-}
-
-.font-everett-medium {
-  font-family: "TWKEverett-Medium", Helvetica, sans-serif;
-  font-weight: normal;
+.font-light {
+  font-weight: 400;
 }
 
 body {
-  font-family: "SuisseIntl-Regular", Helvetica, sans-serif;
+  font-family: "TASA Orbiter", Helvetica, sans-serif;
+  font-weight: 500;
   background-color: #fff;
   color: #171717;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "TASA Orbiter", Helvetica, sans-serif;
+  font-weight: 500;
 }
 
 .dark body {
@@ -150,30 +148,6 @@ body {
     border-color 0.55s cubic-bezier(0.22, 1, 0.36, 1),
     border-radius 0.55s cubic-bezier(0.22, 1, 0.36, 1),
     padding 0.55s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.gradient-mark-rect {
-  fill: #000;
-  rx: 147.27px;
-  ry: 147.27px;
-  transition: rx 0.55s cubic-bezier(0.22, 1, 0.36, 1), ry 0.55s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.dark .gradient-mark-rect {
-  fill: #fff;
-}
-
-.gradient-mark-rect.is-circle {
-  rx: 270px;
-  ry: 270px;
-}
-
-.gradient-mark-glyph {
-  fill: var(--color-vanilla);
-}
-
-.dark .gradient-mark-glyph {
-  fill: var(--color-charcoal);
 }
 
 .site-main,

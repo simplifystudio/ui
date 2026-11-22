@@ -15,7 +15,7 @@ export default function PreviewColumn({ reverse = false }: { reverse?: boolean }
           <div className="relative h-[200px] overflow-hidden rounded-xl bg-white dark:bg-[#1a1a1a]">
             <CardPreview slug={item.slug} />
           </div>
-          <p className="font-geist-medium mt-2 px-1 pb-1 text-sm text-black/55 dark:text-white/55">{item.name}</p>
+          <p className="font-tasa-medium mt-2 px-1 pb-1 text-sm text-black/55 dark:text-white/55">{item.name}</p>
         </div>
       ))}
     </div>
