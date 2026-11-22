@@ -6,12 +6,12 @@ export default function SiteFooter() {
       <span>
         © {new Date().getFullYear()}{" "}
         <a
-          href="https://gradientai.studio"
+          href="https://simplifystudio.app"
           target="_blank"
           rel="noopener noreferrer"
           className="text-black transition-opacity hover:opacity-50 dark:text-white dark:hover:opacity-50"
         >
-          Gradient AI
+          Simplify Studio
         </a>
       </span>
       <Link href="/license" className="text-black transition-opacity hover:opacity-50 dark:text-white dark:hover:opacity-50">
