@@ -153,7 +153,7 @@ export default function Hero() {
             Ship faster
           </h1>
           <p className="mx-auto max-w-[600px] text-xl font-light text-black/60 sm:text-2xl dark:text-white/60">
-            Open source React and Tailwind CSS UI components designed to kickstart your next project
+            Open-source React and Tailwind CSS UI components designed to kickstart your next project
           </p>
         </div>
 
